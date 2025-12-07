@@ -21,8 +21,12 @@ export default class AppClass extends React.Component {
   // You can delete them and build your own logic from scratch.
 
   getXY = () => {
+    for (let i = 0; i < array.length; i++) {
+      console.log(`${i}`)
+    }
     // It it not necessary to have a state to track the coordinates.
     // It's enough to know what index the "B" is at, to be able to calculate them.
+
   }
 
   getXYMessage = () => {
